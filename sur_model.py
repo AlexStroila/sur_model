@@ -19,7 +19,7 @@ from numpy.linalg import inv
 
 # Load CSV into DataFrame
 # Note: if you opt for the "header = None" argument in the read_csv function, then you dont need to add column names (i.e., x1_1, x1_2)
-df = pd.read_csv("Date_panel_SUR - 4indv - doua var.csv") # Change the path according to your directory
+df = pd.read_csv("example_data.csv") # Change the path according to your directory
 # Display first few rows
 df.head()
 # Prompt for the number of individuals
